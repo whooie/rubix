@@ -1,0 +1,7 @@
+**/.stack-work/*
+**/target/*
+**.png
+**.svg
+**.pdf
+**.lock
+**.cabal

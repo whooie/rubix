@@ -1,0 +1,19 @@
+[package]
+name = "rubix"
+version = "0.1.0"
+authors = [ "whooie <wcwhuie@gmail.com>",]
+edition = "2021"
+
+[dependencies]
+# indexmap = "*"
+# itertools = "*"
+# rand = "*"
+# thiserror = "*"
+
+[lib]
+path = "lib/lib.rs"
+name = "rubix"
+
+[profile.release]
+lto = true
+panic = "abort"
